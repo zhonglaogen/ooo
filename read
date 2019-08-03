@@ -1,0 +1,13 @@
+子页面：
+var message = {s:"close",filePath:filePath}
+                window.parent.postMessage(message, '*');
+父页面：
+window.addEventListener('message', function (e) {
+            //let target = e.target;
+            let data = e.data;
+            console.log(data);
+            if (true)
+            {
+             	//****
+            }
+        }, false);

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="zlx">
+    <output-path>$USER_HOME$/桌面</output-path>
+    <root id="archive" name="zlx.jar">
+      <element id="module-output" name="tjar" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/test/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
